@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invila™ Infrastructure - Zero Capex WTP Solution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg { background: linear-gradient(135deg, #0A2540 0%, #16417C 100%); }
+        .chart-container { background: #f8fafc; border-radius: 1rem; border: 1px solid #e2e8f0; }
+    </style>
+</head>
+<body class="bg-white text-slate-800 font-sans leading-relaxed">
+
+    <nav class="py-6 px-10 flex justify-between items-center bg-white sticky top-0 z-50 shadow-sm">
+        <div class="text-2xl font-bold text-[#0A2540]">Invila<span class="text-emerald-500">™</span></div>
+        <a href="https://wa.me/YOUR_PHONE_NUMBER" class="bg-emerald-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-emerald-600 transition">Konsultasi Gratis</a>
+    </nav>
+
+    <section class="gradient-bg text-white py-20 px-10 text-center">
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">Sediakan Air Bersih 24/7 Tanpa <br> Beban Investasi Awal (Zero Capex)</h1>
+        <p class="text-xl opacity-90 mb-10 max-w-3xl mx-auto">Bangun WTP lebih cepat, operasikan lebih efisien, dan bayar hanya sesuai pemakaian dengan Invila™ Infrastructure Modular Systems.</p>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <a href="#form" class="bg-emerald-500 text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-emerald-600 shadow-lg">Dapatkan Simulasi NPV</a>
+            <a href="#studi-kasus" class="bg-transparent border-2 border-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-[#0A2540] transition">Lihat Studi Kasus KIW</a>
+        </div>
+    </section>
+
+    <section class="py-16 bg-slate-50 text-center">
+        <div class="max-w-6xl mx-auto px-10">
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div>
+                    <h2 class="text-5xl font-bold text-[#0A2540] mb-2">>2.655</h2>
+                    <p class="text-slate-500 font-medium">Total LPS Terpasang</p>
+                </div>
+                <div>
+                    <h2 class="text-5xl font-bold text-[#0A2540] mb-2">8+</h2>
+                    <p class="text-slate-500 font-medium">Kota Besar di Indonesia</p>
+                </div>
+                <div>
+                    <h2 class="text-5xl font-bold text-[#0A2540] mb-2">0</h2>
+                    <p class="text-slate-500 font-medium">Beban Investasi (Capex)</p>
+                </div>
+            </div>
+            <p class="text-slate-600 mb-4">Rekam jejak teruji: Medan, Jakarta, Surabaya, Semarang, Banjarmasin, dan sekitarnya.</p>
+        </div>
+    </section>
+
+    <section class="py-20 px-10 max-w-5xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Perbandingan Likuiditas Keuangan</h2>
+        <p class="text-slate-600 mb-12">Grafik di bawah menunjukkan bagaimana modal Anda tetap aman dengan sistem sewa.</p>
+        
+        <div class="chart-container p-10 relative">
+            <div class="flex items-end justify-between h-64 gap-4 border-l-2 border-b-2 border-slate-300 p-4">
+                <div class="w-1/2 bg-red-400 h-full relative flex items-center justify-center text-white font-bold rounded-t">
+                    CAPEX BESAR (Bangun Sendiri)
+                </div>
+                <div class="w-1/2 bg-emerald-500 h-10 relative flex items-center justify-center text-white font-bold rounded-t">
+                    OPERATIONAL (Sewa Invila)
+                </div>
+            </div>
+            <p class="mt-6 text-sm text-slate-500 font-italic">*Visualisasi penghematan kas perusahaan di tahun pertama operasional.</p>
+        </div>
+    </section>
+
+    <section id="studi-kasus" class="py-20 px-10 bg
